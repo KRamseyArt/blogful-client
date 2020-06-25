@@ -9,7 +9,7 @@ export default class ArticleListItem extends Component {
   render() {
     const { article } = this.props
     return (
-      <Link to={`/article/${article.id}`} className='ArticleListItem'>
+      <Link to={`/articles/${article.id}`} className='ArticleListItem'>
         <header className='ArticleListItem__header'>
           <h2 className='ArticleListItem__heading'>
             {article.title}
